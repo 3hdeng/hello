@@ -4,12 +4,15 @@
   "description": "hellow world using express",
   "main": "index.js",
   "scripts": {
-      "start": "node index.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "jshint index.js"
   },
   "author": "3hdeng",
   "license": "MIT",
   "dependencies": {
     "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.2"
   }
 }
