@@ -1,11 +1,9 @@
 language: node_js
-
 node_js:
-      - "4"
-
+- '4'
 deploy:
-       - provider: heroku
-         app: hello
-         api_key: "91633db7-a49c-484d-af1d-e294fd6fbffe"
-         skip_cleanup: true
-
+  provider: heroku
+  app: hello
+  skip_cleanup: true
+  api_key:
+    secure: e9XnZ+Mj72cDsLoRC89zZscCOWRn9d2oKU2jIlpVRenQGpNCn0xAUR9hNoD2JqaBli6kaL3AepfT8Ihk0ZCFidHMde5MdCIhiCeuA0nAMMQL+ZOqicVlx3u/Y8OsmymvsEG65umokAAKYX3Q5EPvPZQeFC/zXOUKUlKvqDeTNpxEPBfZ97VZy08TrgN/SjWhZWaHnRb/4voSSyTmvP/6OI4S16h2EQdv0wA22zAx9XV2U80TwwqEFmmh9Sap2yUrpMcZYMaGJwKUUJay4gR05GzYOJQNcmfSO2XmwFj/p5snJX1bcw4sQlQLojuD/w99vEjVvEZIJAGBLhCjzJxnYE8LrbjvYB/MaQ/W6DvGzFIxCyKKTeltO0pEjliVhsbGf6hLEd4Z7k8G6fP6eoWwRCyMry5ekLNUhvXHz9dwSlri15gpUGFxMD0fCZwHpz7QfctWExNwbXhnUdAaw9YY/pzeV1hp78Rp8s0XYfUmdTySD1QthhUqsOpXLqa9PgqmwGxeruahZ17CJecI+7OwRfbDdonHLAJSvQj6VYku1Vr202HIXMtgjRyU6eyOSHxtXS9ORkoxy1GUpIHiuupX9TDHKRqTQDvcP38c2dALybJ/fEnU6nJxehj4LKjpG9PcSGfibnswLSGvoLt1b70typZkSS5wILdgmPJCCQcxtc4=
